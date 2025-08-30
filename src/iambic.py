@@ -66,10 +66,10 @@ try:
         now=time.time()
 
         if state==0:  # IDLE
-            if dit_pressed and dah_pressed:
-                last_iambic=1-last_iambic
-                elem='dit' if last_iambic==0 else 'dah'
-            elif dit_pressed: elem='dit'
+            #if dit_pressed and dah_pressed:
+             #   last_iambic=1-last_iambic
+                #elem='dit' if last_iambic==0 else 'dah'
+            if dit_pressed: elem='dit'
             elif dah_pressed: elem='dah'
             else: elem=None
 
